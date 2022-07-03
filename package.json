@@ -1,7 +1,7 @@
 {
   "name": "@perymimon/let-map",
-  "version": "1.0.1",
-  "description": "javascript Map with let() method",
+  "version": "1.0.1-beta.0",
+  "description": "javascript's Map  with let() method",
   "private": false,
   "main": "src/index.js",
   "type": "module",

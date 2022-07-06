@@ -27,5 +27,7 @@
   "homepage": "https://github.com/perymimon/let-map#readme",
   "dependencies": {
     "events": "^3.3.0"
-  }
+  },
+  "Keywords": ["javascript","map"]
+
 }

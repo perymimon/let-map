@@ -1,8 +1,8 @@
 import EventEmitter from 'events';
+import { NEW , UPDATE , DELETE } from './CONSTANT.js'
 
-export const NEW = "NEW", UPDATE = "UPDATE", DELETE = "DELETE"
 
-export  class LetMap extends Map {
+export class LetMap extends Map {
     #emitter = new EventEmitter();
 
     constructor(struct) {
@@ -15,7 +15,6 @@ export  class LetMap extends Map {
     }
 
     off(...args) {
-        return this.#emitter.off(...args)
         return this.#emitter.off(...args)
     }
 
@@ -62,3 +61,4 @@ export  class LetMap extends Map {
     }
 }
 
+export default LetMap

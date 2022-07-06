@@ -1,12 +1,18 @@
 {
   "name": "@perymimon/let-map",
-  "version": "1.0.1-beta.0",
+  "version": "1.0.1-beta.1",
   "description": "javascript's Map  with let() method",
+  "author": "Pery Mimon <pery.mimon@gmail.com>",
+  "engines": {
+    "node": ">=17.0.0",
+    "webkit":">=98.0.0"
+  },
   "private": false,
-  "main": "src/index.js",
+  "main": "index.js",
   "type": "module",
   "files": [
-    "src"
+    "src",
+    "!src/*.test.js"
   ],
   "scripts": {
   },
@@ -14,7 +20,6 @@
     "type": "git",
     "url": "git+https://github.com/perymimon/let-map.git"
   },
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/perymimon/let-map/issues"

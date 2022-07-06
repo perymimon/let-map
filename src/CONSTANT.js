@@ -1,0 +1,1 @@
+export const NEW = "NEW", UPDATE = "UPDATE", DELETE = "DELETE"

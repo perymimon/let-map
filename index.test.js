@@ -1,13 +1,16 @@
-import LetMap from './index.js'
 
-console.log(LetMap);
+import LetMapDefault  from './index.js'
 
-const letMap = new LetMap()
+console.log(LetMapDefault);
 
-console.assert(letMap instanceof LetMap,  "error in import LetMap")
+const letMapDefault = new LetMapDefault()
+
+console.assert(letMapDefault instanceof LetMap,  "error in import LetMap")
 
 import  {LetMapBasic} from './index.js'
 
-const letMapBasic = new LetMapBasic() 
+const letMapBasic = new LetMapBasic()
 
-console.assert(letMapBasic instanceof LetMapBasic,  "error in import LetMapBasic")  
+import  {LetMap} from './index.js'
+
+const letMap = new LetMap()

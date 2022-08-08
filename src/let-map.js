@@ -33,7 +33,7 @@ export class LetMap extends Map {
     set(k, nv) {
         let ov = super.get(k);
         super.set(k, nv);
-        const event = {key: k, phase: UPDATE, new: nv, old: ov}
+        const event = {key: k, phase: UPDATE, value: nv, oldValue: ov}
         this.#emitter.emit(k /*event name*/, event);
         if (ov === void 0)
             this.#emitter.emit('new', event); /*no event update for that*/

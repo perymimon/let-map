@@ -1,6 +1,6 @@
 {
   "name": "@perymimon/let-map",
-  "version": "1.0.1-beta.2",
+  "version": "1.0.1-beta.3",
   "description": "javascript's Map  with let() method",
   "author": "Pery Mimon <pery.mimon@gmail.com>",
   "engines": {
